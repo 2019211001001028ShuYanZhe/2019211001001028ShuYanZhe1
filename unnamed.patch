@@ -1,0 +1,667 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/.gitignore	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/../../../../:\JSP\1\.idea/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: .idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.name b/.idea/.name
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/.name	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,1 @@
++2019211001001028ShuYanZhe
+\ No newline at end of file
+Index: .idea/artifacts/2019211001001028ShuYanZhe_war.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/2019211001001028ShuYanZhe_war.xml b/.idea/artifacts/2019211001001028ShuYanZhe_war.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/artifacts/2019211001001028ShuYanZhe_war.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,14 @@
++<component name="ArtifactManager">
++  <artifact type="war" name="2019211001001028ShuYanZhe:war">
++    <output-path>$PROJECT_DIR$/target</output-path>
++    <properties id="maven-jee-properties">
++      <options>
++        <module>2019211001001028ShuYanZhe</module>
++        <packaging>war</packaging>
++      </options>
++    </properties>
++    <root id="archive" name="ShuYanZhe2019211001001028-1.0-SNAPSHOT.war">
++      <element id="artifact" artifact-name="2019211001001028ShuYanZhe:war exploded" />
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: .idea/artifacts/2019211001001028ShuYanZhe_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/2019211001001028ShuYanZhe_war_exploded.xml b/.idea/artifacts/2019211001001028ShuYanZhe_war_exploded.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/artifacts/2019211001001028ShuYanZhe_war_exploded.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,23 @@
++<component name="ArtifactManager">
++  <artifact type="exploded-war" name="2019211001001028ShuYanZhe:war exploded">
++    <output-path>$PROJECT_DIR$/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT</output-path>
++    <properties id="maven-jee-properties">
++      <options>
++        <exploded>true</exploded>
++        <module>2019211001001028ShuYanZhe</module>
++        <packaging>war</packaging>
++      </options>
++    </properties>
++    <root id="root">
++      <element id="directory" name="WEB-INF">
++        <element id="directory" name="classes">
++          <element id="module-output" name="2019211001001028ShuYanZhe" />
++        </element>
++      </element>
++      <element id="directory" name="META-INF">
++        <element id="file-copy" path="$PROJECT_DIR$/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
++      </element>
++      <element id="javaee-facet-resources" facet="2019211001001028ShuYanZhe/web/Web" />
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/compiler.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,16 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="2019211001001028ShuYanZhe" />
++      </profile>
++    </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="2019211001001028ShuYanZhe" target="1.8" />
++    </bytecodeTargetLevel>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/jarRepositories.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml b/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: javax.servlet:javax.servlet-api:4.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml b/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apiguardian:apiguardian-api:1.1.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml b/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml b/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml b/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.junit.platform:junit-platform-commons:1.7.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml b/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.junit.platform:junit-platform-engine:1.7.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml b/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.opentest4j:opentest4j:1.2.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/misc.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,16 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="FrameworkDetectionExcludesConfiguration">
++    <file type="web" url="file://$PROJECT_DIR$" />
++  </component>
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/modules.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/2019211001001028ShuYanZhe.iml" filepath="$PROJECT_DIR$/2019211001001028ShuYanZhe.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/.idea/vcs.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: 2019211001001028ShuYanZhe.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2019211001001028ShuYanZhe.iml b/2019211001001028ShuYanZhe.iml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/2019211001001028ShuYanZhe.iml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,39 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
++        </webroots>
++        <sourceRoots>
++          <root url="file://$MODULE_DIR$/src/main/java" />
++          <root url="file://$MODULE_DIR$/src/main/resources" />
++        </sourceRoots>
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="jdk" jdkName="15" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.0" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.7.0" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.0" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.0" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/pom.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,49 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>com.example</groupId>
++    <artifactId>ShuYanZhe2019211001001028</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    <name>2019211001001028ShuYanZhe</name>
++    <packaging>war</packaging>
++
++    <properties>
++        <maven.compiler.target>1.8</maven.compiler.target>
++        <maven.compiler.source>1.8</maven.compiler.source>
++        <junit.version>5.7.0</junit.version>
++    </properties>
++
++    <dependencies>
++        <dependency>
++            <groupId>javax.servlet</groupId>
++            <artifactId>javax.servlet-api</artifactId>
++            <version>4.0.1</version>
++            <scope>provided</scope>
++        </dependency>
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter-api</artifactId>
++            <version>${junit.version}</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter-engine</artifactId>
++            <version>${junit.version}</version>
++            <scope>test</scope>
++        </dependency>
++    </dependencies>
++
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-war-plugin</artifactId>
++                <version>3.3.0</version>
++            </plugin>
++        </plugins>
++    </build>
++</project>
+\ No newline at end of file
+Index: src/main/java/com/example/ShuYanZhe2019211001001028/HelloServlet.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/example/ShuYanZhe2019211001001028/HelloServlet.java b/src/main/java/com/example/ShuYanZhe2019211001001028/HelloServlet.java
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/src/main/java/com/example/ShuYanZhe2019211001001028/HelloServlet.java	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,27 @@
++package com.example.ShuYanZhe2019211001001028;
++
++import java.io.*;
++import javax.servlet.http.*;
++import javax.servlet.annotation.*;
++
++@WebServlet(name = "helloServlet", value = "/hello-servlet")
++public class HelloServlet extends HttpServlet {
++    private String message;
++
++    public void init() {
++        message = "Hello World!";
++    }
++
++    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
++        response.setContentType("text/html");
++
++        // Hello
++        PrintWriter out = response.getWriter();
++        out.println("<html><body>");
++        out.println("<h1>" + message + "</h1>");
++        out.println("</body></html>");
++    }
++
++    public void destroy() {
++    }
++}
+\ No newline at end of file
+Index: src/main/webapp/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/WEB-INF/web.xml b/src/main/webapp/WEB-INF/web.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/src/main/webapp/WEB-INF/web.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
++         version="4.0">
++</web-app>
+\ No newline at end of file
+Index: src/main/webapp/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/index.jsp b/src/main/webapp/index.jsp
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/src/main/webapp/index.jsp	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
++<!DOCTYPE html>
++<html>
++<head>
++    <title>JSP - Hello World</title>
++</head>
++<body>
++<h1><%= "Hello World!" %>
++</h1>
++<br/>
++<a href="hello-servlet">Hello Servlet</a>
++</body>
++</html>
+\ No newline at end of file
+Index: target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/META-INF/MANIFEST.MF
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/META-INF/MANIFEST.MF b/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/META-INF/MANIFEST.MF
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/META-INF/MANIFEST.MF	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,5 @@
++Manifest-Version: 1.0
++Created-By: IntelliJ IDEA
++Built-By: Administrator
++Build-Jdk: version 15.0.1
++
+Index: target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/WEB-INF/web.xml b/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/WEB-INF/web.xml
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/WEB-INF/web.xml	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
++         version="4.0">
++</web-app>
+\ No newline at end of file
+Index: target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/index.jsp b/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/index.jsp
+new file mode 100644
+--- /dev/null	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
++++ b/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/index.jsp	(revision 15b6b333081ed64778dfd918fc35ea94ccbaa143)
+@@ -0,0 +1,13 @@
++<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
++<!DOCTYPE html>
++<html>
++<head>
++    <title>JSP - Hello World</title>
++</head>
++<body>
++<h1><%= "Hello World!" %>
++</h1>
++<br/>
++<a href="hello-servlet">Hello Servlet</a>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/WEB-INF/classes/com/example/ShuYanZhe2019211001001028/HelloServlet.class b/target/ShuYanZhe2019211001001028-1.0-SNAPSHOT/WEB-INF/classes/com/example/ShuYanZhe2019211001001028/HelloServlet.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..55314a6256d0b840d53c094b1c20b0151887dee0
+GIT binary patch
+literal 1548
+zc$}3~>rN9v6#fQ^Tgq}PH$g=}fwoYVR#33D3dl_>8XzU;uZ2$Nn(c1gof3EwpTk5U
+zXyOC-P{uR6n^J**CheJ-bNS9U=bW8izrX(kFoQP{G@wyINJSHFF${jx5A`F><<6nW
+zg;o-xqOFnG@)ZoXvW8`d97AI)UI-)1pssP#w1;+V$1DyvBZ3wMs)|;$F{JnHvc`|}
+za>eA@R;jwHTklIeJ)N3Qr&80?-Y-3;c?h)>N}0Q^e!v-`c}Yhzb?ZRe5{_XVWWwlR
+zXcqiPk}I1nh@wkDw~8M0GK^hMf0Mfv+j0rH&E;arwgk7t_Hl(2J+aHV;sptRTSY$x
+zDCq$gJB}f^!_XIt`|gIVy(8biK<w^PL9&urF1u$Jk8=?W;=Y0*6~mHX*A-E8<BB|)
+zmVyU_eUZmv)i8_PiC_ecVT>_^vZYi`9%CxvNKjMsN`+fRhU8VZxTFdIiR~mqQ&tPm
+zrc`K{W(W)0_haaeU5=)(G!-zbdH2hDZJ>DwE!jn?V|(7P_(rw7$DM6`&-9vT@9Snk
+zcMN$Blp#?vT!xwa{|`upqU8({^`gBh2WHd1^>uy!ROPP7-00?y2Q{90;`l)f<Nt_G
+zm2+wXb~B|Q7kx=~m9q3)IZzCd<)eLG5e7LcSgM<#^|v((u`Ln<$37<iExYRM^A$su
+zxwF1-Q!<jFf3s={qs$A2Yfvv1EXx+UhtDv2fwf*UYCC+dt^t-_CU~{<*N5A5sGC*!
+zacQ1D8KBVQ%U1?qB<We8U5NJd-jIAmCyiD{Yg6JB><eug=w*Uu2Ev#nsrn9hj3*w@
+zTrGH(yroS^M3rx7J`eYEs^r*O2cgs;=JAv~B*bSl5+fip8Erp9X9FhB(8sWmjNUoH
+zz2py!?4IIbbo2z{iLYp;B|1Uk1W9R*rbwQr9iW6j2l4JgJG$vz>LGnECF}EOB>YqX
+z4Y|u8>ru<#8FGZuj!8Vn3nH};lxmUwFKaiR@aW@msRruq$$|t8SoY)!R%z`b{TiLt
+NUA)5U4`43xe*l1fbg=*c
+
+diff --git a/target/classes/com/example/ShuYanZhe2019211001001028/HelloServlet.class b/target/classes/com/example/ShuYanZhe2019211001001028/HelloServlet.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..55314a6256d0b840d53c094b1c20b0151887dee0
+GIT binary patch
+literal 1548
+zc$}3~>rN9v6#fQ^Tgq}PH$g=}fwoYVR#33D3dl_>8XzU;uZ2$Nn(c1gof3EwpTk5U
+zXyOC-P{uR6n^J**CheJ-bNS9U=bW8izrX(kFoQP{G@wyINJSHFF${jx5A`F><<6nW
+zg;o-xqOFnG@)ZoXvW8`d97AI)UI-)1pssP#w1;+V$1DyvBZ3wMs)|;$F{JnHvc`|}
+za>eA@R;jwHTklIeJ)N3Qr&80?-Y-3;c?h)>N}0Q^e!v-`c}Yhzb?ZRe5{_XVWWwlR
+zXcqiPk}I1nh@wkDw~8M0GK^hMf0Mfv+j0rH&E;arwgk7t_Hl(2J+aHV;sptRTSY$x
+zDCq$gJB}f^!_XIt`|gIVy(8biK<w^PL9&urF1u$Jk8=?W;=Y0*6~mHX*A-E8<BB|)
+zmVyU_eUZmv)i8_PiC_ecVT>_^vZYi`9%CxvNKjMsN`+fRhU8VZxTFdIiR~mqQ&tPm
+zrc`K{W(W)0_haaeU5=)(G!-zbdH2hDZJ>DwE!jn?V|(7P_(rw7$DM6`&-9vT@9Snk
+zcMN$Blp#?vT!xwa{|`upqU8({^`gBh2WHd1^>uy!ROPP7-00?y2Q{90;`l)f<Nt_G
+zm2+wXb~B|Q7kx=~m9q3)IZzCd<)eLG5e7LcSgM<#^|v((u`Ln<$37<iExYRM^A$su
+zxwF1-Q!<jFf3s={qs$A2Yfvv1EXx+UhtDv2fwf*UYCC+dt^t-_CU~{<*N5A5sGC*!
+zacQ1D8KBVQ%U1?qB<We8U5NJd-jIAmCyiD{Yg6JB><eug=w*Uu2Ev#nsrn9hj3*w@
+zTrGH(yroS^M3rx7J`eYEs^r*O2cgs;=JAv~B*bSl5+fip8Erp9X9FhB(8sWmjNUoH
+zz2py!?4IIbbo2z{iLYp;B|1Uk1W9R*rbwQr9iW6j2l4JgJG$vz>LGnECF}EOB>YqX
+z4Y|u8>ru<#8FGZuj!8Vn3nH};lxmUwFKaiR@aW@msRruq$$|t8SoY)!R%z`b{TiLt
+NUA)5U4`43xe*l1fbg=*c
+
